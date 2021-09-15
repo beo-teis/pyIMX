@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "imx"
+version = "0.1.4"
+description = "Open Source library for easy development with i.MX platform"
+authors = ["Martin Olejar"]
+license = "BSD-3-Clause"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^8.0.1"
+PyYAML = "^5.4.1"
+bincopy = "^17.10.1"
+easy-enum = "^0.3.0"
+cryptography = "^3.2"
+pywinusb = {version = "^0.4.2", platform = "Windows"}
+pyusb = {version = "^1.2.1", platform = "linux"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
